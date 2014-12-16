@@ -18,6 +18,14 @@
 		01E67C241729AA2F0098E23D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E67C231729AA2F0098E23D /* Default-568h@2x.png */; };
 		01E67C271729AA2F0098E23D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E67C251729AA2F0098E23D /* MainStoryboard.storyboard */; };
 		01E67C2A1729AA2F0098E23D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E67C291729AA2F0098E23D /* ViewController.m */; };
+		01E67C321729AA8F0098E23D /* Environment.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E67C311729AA8F0098E23D /* Environment.m */; };
+		01F6692C172DF14F004C7C36 /* World.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F6692B172DF14F004C7C36 /* World.m */; };
+		01F66930172DF4EC004C7C36 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F6692F172DF4EC004C7C36 /* Constants.m */; };
+		01FD987517304FA100A4EC8F /* Snake.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FD987417304FA100A4EC8F /* Snake.m */; };
+		01FD9879173052AA00A4EC8F /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FD9878173052AA00A4EC8F /* Node.m */; };
+		01FD987C173052B600A4EC8F /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FD987B173052B600A4EC8F /* List.m */; };
+		01FD987F173052C600A4EC8F /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FD987E173052C600A4EC8F /* Queue.m */; };
+		01FD98821730C0ED00A4EC8F /* Direction.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FD98811730C0EB00A4EC8F /* Direction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +45,22 @@
 		01E67C261729AA2F0098E23D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		01E67C281729AA2F0098E23D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		01E67C291729AA2F0098E23D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01E67C301729AA8F0098E23D /* Environment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Environment.h; sourceTree = "<group>"; };
+		01E67C311729AA8F0098E23D /* Environment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Environment.m; sourceTree = "<group>"; };
+		01F6692A172DF14F004C7C36 /* World.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = World.h; sourceTree = "<group>"; };
+		01F6692B172DF14F004C7C36 /* World.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = World.m; sourceTree = "<group>"; };
+		01F6692E172DF4EC004C7C36 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		01F6692F172DF4EC004C7C36 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		01FD987317304FA100A4EC8F /* Snake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Snake.h; sourceTree = "<group>"; };
+		01FD987417304FA100A4EC8F /* Snake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Snake.m; sourceTree = "<group>"; };
+		01FD9877173052AA00A4EC8F /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		01FD9878173052AA00A4EC8F /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		01FD987A173052B600A4EC8F /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		01FD987B173052B600A4EC8F /* List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = List.m; sourceTree = "<group>"; };
+		01FD987D173052C600A4EC8F /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		01FD987E173052C600A4EC8F /* Queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
+		01FD98801730C0E900A4EC8F /* Direction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Direction.h; sourceTree = "<group>"; };
+		01FD98811730C0EB00A4EC8F /* Direction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Direction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,12 @@
 		01E67BFE1729AA2F0098E23D = {
 			isa = PBXGroup;
 			children = (
+				01FD9877173052AA00A4EC8F /* Node.h */,
+				01FD9878173052AA00A4EC8F /* Node.m */,
+				01FD987A173052B600A4EC8F /* List.h */,
+				01FD987B173052B600A4EC8F /* List.m */,
+				01FD987D173052C600A4EC8F /* Queue.h */,
+				01FD987E173052C600A4EC8F /* Queue.m */,
 				01E67C131729AA2F0098E23D /* TodescoNibbles2 */,
 				01E67C0C1729AA2F0098E23D /* Frameworks */,
 				01E67C0A1729AA2F0098E23D /* Products */,
@@ -86,8 +116,18 @@
 				01E67C1C1729AA2F0098E23D /* AppDelegate.h */,
 				01E67C1D1729AA2F0098E23D /* AppDelegate.m */,
 				01E67C251729AA2F0098E23D /* MainStoryboard.storyboard */,
+				01E67C301729AA8F0098E23D /* Environment.h */,
+				01E67C311729AA8F0098E23D /* Environment.m */,
 				01E67C281729AA2F0098E23D /* ViewController.h */,
 				01E67C291729AA2F0098E23D /* ViewController.m */,
+				01F6692A172DF14F004C7C36 /* World.h */,
+				01F6692B172DF14F004C7C36 /* World.m */,
+				01FD987317304FA100A4EC8F /* Snake.h */,
+				01FD987417304FA100A4EC8F /* Snake.m */,
+				01FD98801730C0E900A4EC8F /* Direction.h */,
+				01FD98811730C0EB00A4EC8F /* Direction.m */,
+				01F6692E172DF4EC004C7C36 /* Constants.h */,
+				01F6692F172DF4EC004C7C36 /* Constants.m */,
 				01E67C141729AA2F0098E23D /* Supporting Files */,
 			);
 			path = TodescoNibbles2;
@@ -176,6 +216,14 @@
 				01E67C1A1729AA2F0098E23D /* main.m in Sources */,
 				01E67C1E1729AA2F0098E23D /* AppDelegate.m in Sources */,
 				01E67C2A1729AA2F0098E23D /* ViewController.m in Sources */,
+				01E67C321729AA8F0098E23D /* Environment.m in Sources */,
+				01F6692C172DF14F004C7C36 /* World.m in Sources */,
+				01F66930172DF4EC004C7C36 /* Constants.m in Sources */,
+				01FD987517304FA100A4EC8F /* Snake.m in Sources */,
+				01FD9879173052AA00A4EC8F /* Node.m in Sources */,
+				01FD987C173052B600A4EC8F /* List.m in Sources */,
+				01FD987F173052C600A4EC8F /* Queue.m in Sources */,
+				01FD98821730C0ED00A4EC8F /* Direction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +342,7 @@
 				01E67C2F1729AA2F0098E23D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
